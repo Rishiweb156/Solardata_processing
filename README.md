@@ -16,8 +16,7 @@ The project processes the raw daily CSV files into a single, consolidated CSV fi
 * **Output File:** 'processed_data.csv'
 * **Columns:** 'Date', 'GHI', 'PR'
 
-* **Expected Rows (from assessment):** 982 rows.
-    * **Note:** During development, it was observed that the provided local dataset contains **197 rows** for both PR and GHI. The script will accurately process all available 197 rows.
+* **Note:** During development, it was observed that the provided local dataset contains **197 rows** for both PR and GHI. The script will accurately process all available 197 rows.
 
 **Key Function:**
 * 'preprocess_data(base_data_path="data")' in 'main.py': Handles reading individual CSVs, extracting Date, GHI, and PR values, and merging them into a single pandas DataFrame.
